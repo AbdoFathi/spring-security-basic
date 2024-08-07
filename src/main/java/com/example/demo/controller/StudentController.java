@@ -13,5 +13,11 @@ public class StudentController {
 	{
 		return "hi Abdo";
 	}
+	
+	@GetMapping("/getName")
+	public String getName()
+	{
+		return "My name is Omar";
+	}
 
 }
